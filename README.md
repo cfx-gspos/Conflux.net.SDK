@@ -1,39 +1,39 @@
 # Nconflux
 Test word
-[![Join the chat at https://gitter.im/juanfranblanco/Ethereum.RPC](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/juanfranblanco/Ethereum.RPC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Documentation Status](https://readthedocs.org/projects/nethereum/badge/?version=latest)](https://nethereum.readthedocs.io/en/latest/) [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)
+[![Join the chat at https://gitter.im/michaelzhang/Conflux.RPC](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/juanfranblanco/Conflux.RPC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Documentation Status](https://readthedocs.org/projects/nconflux/badge/?version=latest)](https://nconflux.readthedocs.io/en/latest/) [![NuGet version](https://badge.fury.io/nu/nconflux.web3.svg)](https://badge.fury.io/nu/nconflux.web3)
 
-Azure DevOps CI [![CI Build / Test Status](https://dev.azure.com/nethereumproject/Nethereum/_apis/build/status/nethereum-CI)](https://dev.azure.com/nethereumproject/Nethereum/_build/latest?definitionId=2)
-
-
-Azure DevOps CI Code Gen: [![CI Code gen Build / Test Status](https://dev.azure.com/nethereumproject/Nethereum/_apis/build/status/nethereum%20ci%20codegen)](https://dev.azure.com/nethereumproject/Nethereum/_build/latest?definitionId=3)
-CI dev packages: [![MyGet Pre Release](https://img.shields.io/myget/nethereum/vpre/nethereum.web3.svg?style=plastic)](https://www.myget.org/feed/nethereum/package/nuget/Nethereum.Web3)
+Azure DevOps CI [![CI Build / Test Status](https://dev.azure.com/nconfluxproject/Nconflux/_apis/build/status/nconflux-CI)](https://dev.azure.com/nconfluxproject/Nconflux/_build/latest?definitionId=2)
 
 
-# What is Nethereum ?
+Azure DevOps CI Code Gen: [![CI Code gen Build / Test Status](https://dev.azure.com/nconfluxproject/Nconflux/_apis/build/status/nconflux%20ci%20codegen)](https://dev.azure.com/nconfluxproject/Nconflux/_build/latest?definitionId=3)
+CI dev packages: [![MyGet Pre Release](https://img.shields.io/myget/nconflux/vpre/nconflux.web3.svg?style=plastic)](https://www.myget.org/feed/nconflux/package/nuget/Nconflux.Web3)
 
-Nethereum is the .Net integration library for Ethereum, simplifying the access and smart contract interaction with Ethereum nodes both public or permissioned like Geth, [Parity](https://www.parity.io/) or [Quorum](https://www.jpmorgan.com/global/Quorum).
 
-Nethereum is developed targeting netstandard 1.1, netstandard 2.0, netcore 2.1, netcore 3.1, net451 and also as a portable library, hence it is compatible with all the operating systems (Windows, Linux, MacOS, Android and OSX) and has been tested on cloud, mobile, desktop, Xbox, hololens and windows IoT.
+# What is Nconflux?
 
-# Nethereum Playground. Try Nethereum now in your browser.
-Go to http://playground.nethereum.com to browse and execute all the different samples on how to use Nethereum directly in your browser. 
-The same version is hosted in IPFS at http://playground.nethereum.eth.link/ or the same https://gateway.pinata.cloud/ipfs/QmPgWmX3HsxCBCDVv8adEhLzeJd2VstcyGh1T9ipKrvU4Y/
+Nconflux is the .Net integration library for Conflux, simplifying the access and smart contract interaction with Conflux nodes both public or permissioned like Gcfx, [Parity](https://www.parity.io/) or [Quorum](https://www.jpmorgan.com/global/Quorum).
 
-[![Nethereum Playground](screenshots/playground.png)](http://playground.nethereum.com)
+Nconflux is developed targeting netstandard 1.1, netstandard 2.0, netcore 2.1, netcore 3.1, net451 and also as a portable library, hence it is compatible with all the operating systems (Windows, Linux, MacOS, Android and OSX) and has been tested on cloud, mobile, desktop, Xbox, hololens and windows IoT.
+
+# Nconflux Playground. Try Nconflux now in your browser.
+Go to http://playground.nconflux.com to browse and execute all the different samples on how to use Nconflux directly in your browser. 
+The same version is hosted in IPFS at http://playground.nconflux.cfx.link/ or the same https://gateway.pinata.cloud/ipfs/QmPgWmX3HsxCBCDVv8adEhLzeJd2VstcyGh1T9ipKrvU4Y/
+
+[![Nconflux Playground](screenshots/playground.png)](http://playground.nconflux.com)
 
 ## Issues, Requests and help
 
-Please join the chat at:  [![Join the chat at https://gitter.im/juanfranblanco/Ethereum.RPC](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/juanfranblanco/Ethereum.RPC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Please join the chat at:  [![Join the chat at https://gitter.im/juanfranblanco/Conflux.RPC](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/juanfranblanco/Conflux.RPC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 We should be able to answer there any simple queries, general comments or requests, everyone is welcome. In a similar feel free to raise any issue or pull request.
 
 ## Documentation
-The documentation and guides can be found at [Read the docs](https://nethereum.readthedocs.io/en/latest/). 
+The documentation and guides can be found at [Read the docs](https://nconflux.readthedocs.io/en/latest/). 
 
 ## Features
 
-* JSON RPC / IPC Ethereum core methods.
-* Geth management API (admin, personal, debugging, miner).
+* JSON RPC / IPC Conflux core methods.
+* Gcfx management API (admin, personal, debugging, miner).
 * [Parity](https://www.parity.io/) management API.
 * [Quorum](https://www.jpmorgan.com/global/Quorum) integration.
 * Simplified smart contract interaction for deployment, function calling, transaction and event filtering and decoding of topics.
@@ -43,14 +43,14 @@ The documentation and guides can be found at [Read the docs](https://nethereum.r
 * Transaction, RLP and message signing, verification and recovery of accounts.
 * Libraries for standard contracts Token, [ENS](https://ens.domains/) and [Uport](https://www.uport.me/)
 * Integrated TestRPC testing to simplify TDD and BDD (Specflow) development.
-* Key storage using Web3 storage standard, compatible with Geth and Parity.
+* Key storage using Web3 storage standard, compatible with Gcfx and Parity.
 * Simplified account life cycle for both managed by third party client (personal) or stand alone (signed transactions).
 * Low level Interception of RPC calls.
 * Code generation of smart contracts services.
 
 ## Quick installation
 
-Nethereum provides two types of packages. Standalone packages targeting Netstandard 1.1, net451 and where possible net351 to support Unity3d. There is also a Nethereum.Portable library which combines all the packages into a single portable library. As netstandard evolves and is more widely supported, the portable library might be eventually deprecated.
+Nconflux provides two types of packages. Standalone packages targeting Netstandard 1.1, net451 and where possible net351 to support Unity3d. There is also a Nconflux.Portable library which combines all the packages into a single portable library. As netstandard evolves and is more widely supported, the portable library might be eventually deprecated.
 
 To install the latest version:
 
@@ -59,104 +59,104 @@ To install the latest version:
 To install the main packages you can either:
 
 ```
-PM > Install-Package Nethereum.Web3
+PM > Install-Package Nconflux.Web3
 ```
 or 
 ```
-PM > Install-Package Nethereum.Portable
+PM > Install-Package Nconflux.Portable
 ```
 
 #### Mac/Linux users
 
 ```
-dotnet add package Nethereum.Web3 
+dotnet add package Nconflux.Web3 
 ``` 
 or 
 ```
-dotnet add package Nethereum.Portable
+dotnet add package Nconflux.Portable
 ```
 
 ## Main Libraries
 
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
-| Nethereum.Portable    | [![NuGet version](https://badge.fury.io/nu/nethereum.portable.svg)](https://badge.fury.io/nu/nethereum.portable)| Portable class library combining all the different libraries in one package |
-| [Nethereum.Web3](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Web3)    | [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)| Ethereum Web3 Class Library simplifying the interaction via RPC. Includes contract interaction, deployment, transaction, encoding / decoding and event filters |
-| [Nethereum.Unity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Unity) |  | Unity3d integration, libraries can be found in the Nethereum [releases](https://github.com/Nethereum/Nethereum/releases) |
-| [Nethereum.Geth](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Geth)    | [![NuGet version](https://badge.fury.io/nu/nethereum.geth.svg)](https://badge.fury.io/nu/nethereum.geth)| Nethereum.Geth is the extended Web3 library for Geth. This includes the non-generic RPC API client methods to interact with the Go Ethereum Client (Geth) like Admin, Debug, Miner|
-| [Nethereum.Quorum](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Quorum)| [![NuGet version](https://badge.fury.io/nu/nethereum.quorum.svg)](https://badge.fury.io/nu/nethereum.quorum)| Extension to interact with Quorum, the permissioned implementation of Ethereum supporting data privacy created by JP Morgan|
-| [Nethereum.Parity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Parity)| [![NuGet version](https://badge.fury.io/nu/nethereum.parity.svg)](https://badge.fury.io/nu/nethereum.parity)| Nethereum.Parity is the extended Web3 library for Parity. Including the non-generic RPC API client methods to interact with Parity. (WIP)|
+| Nconflux.Portable    | [![NuGet version](https://badge.fury.io/nu/nconflux.portable.svg)](https://badge.fury.io/nu/nconflux.portable)| Portable class library combining all the different libraries in one package |
+| [Nconflux.Web3](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Web3)    | [![NuGet version](https://badge.fury.io/nu/nconflux.web3.svg)](https://badge.fury.io/nu/nconflux.web3)| Conflux Web3 Class Library simplifying the interaction via RPC. Includes contract interaction, deployment, transaction, encoding / decoding and event filters |
+| [Nconflux.Unity](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Unity) |  | Unity3d integration, libraries can be found in the Nconflux[releases](https://github.com/Nconflux/Nconflux/releases) |
+| [Nconflux.Gcfx](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Gcfx)    | [![NuGet version](https://badge.fury.io/nu/nconflux.gcfx.svg)](https://badge.fury.io/nu/nconflux.gcfx)| Nconflux.Gcfx is the extended Web3 library for Gcfx. This includes the non-generic RPC API client methods to interact with the Go Conflux Client (Gcfx) like Admin, Debug, Miner|
+| [Nconflux.Quorum](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Quorum)| [![NuGet version](https://badge.fury.io/nu/Nconflux.quorum.svg)](https://badge.fury.io/nu/Nconflux.quorum)| Extension to interact with Quorum, the permissioned implementation of Conflux supporting data privacy created by JP Morgan|
+| [Nconflux.Parity](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Parity)| [![NuGet version](https://badge.fury.io/nu/nconflux.parity.svg)](https://badge.fury.io/nu/nconflux.parity)| Nconflux.Parity is the extended Web3 library for Parity. Including the non-generic RPC API client methods to interact with Parity. (WIP)|
 
 ## Core Libraries
 
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
-| [Nethereum.ABI](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ABI) | [![NuGet version](https://badge.fury.io/nu/nethereum.abi.svg)](https://badge.fury.io/nu/nethereum.abi)| Encoding and decoding of ABI Types, functions, events of Ethereum contracts |
-| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | |Ethereum Virtual Machine API|
-| [Nethereum.Hex](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Hex) | [![NuGet version](https://badge.fury.io/nu/nethereum.hex.svg)](https://badge.fury.io/nu/nethereum.hex)| HexTypes for encoding and decoding String, BigInteger and different Hex helper functions|
-| [Nethereum.RPC](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RPC)   | [![NuGet version](https://badge.fury.io/nu/nethereum.rpc.svg)](https://badge.fury.io/nu/nethereum.rpc) | Core RPC Class Library to interact via RCP with an Ethereum client |
-| [Nethereum.JsonRpc.Client](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.Client)   | [![NuGet version](https://badge.fury.io/nu/nethereum.jsonrpc.client.svg)](https://badge.fury.io/nu/nethereum.jsonrpc.client) | Nethereum JsonRpc.Client core library to use in conjunction with either the JsonRpc.RpcClient, the JsonRpc.IpcClient or other custom Rpc provider |
-| [Nethereum.JsonRpc.RpcClient](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.RpcClient)   | [![NuGet version](https://badge.fury.io/nu/nethereum.jsonrpc.rpcclient.svg)](https://badge.fury.io/nu/nethereum.jsonrpc.rpcclient) | JsonRpc Rpc Client using Http|
-| [Nethereum JsonRpc IpcClient](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.IpcClient)| [![NuGet version](https://badge.fury.io/nu/nethereum.jsonRpc.ipcclient.svg)](https://badge.fury.io/nu/nethereum.jsonRpc.ipcclient) |JsonRpc IpcClient provider for Windows, Linux and Unix|
-| [Nethereum.RLP](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RLP)  | [![NuGet version](https://badge.fury.io/nu/nethereum.rlp.svg)](https://badge.fury.io/nu/nethereum.rlp) | RLP encoding and decoding |
-| [Nethereum.KeyStore](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.KeyStore)  | [![NuGet version](https://badge.fury.io/nu/nethereum.keystore.svg)](https://badge.fury.io/nu/nethereum.keystore) | Keystore generation, encryption and decryption for Ethereum key files using the Web3 Secret Storage definition, https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition |
-| [Nethereum.Signer](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Signer)  | [![NuGet version](https://badge.fury.io/nu/nethereum.signer.svg)](https://badge.fury.io/nu/nethereum.signer) | Nethereum signer library to sign and verify messages, RLP and transactions using an Ethereum account private key |
-| [Nethereum.Contracts](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Contracts)  | [![NuGet version](https://badge.fury.io/nu/nethereum.contracts.svg)](https://badge.fury.io/nu/nethereum.contracts) | Core library to interact via RPC with Smart contracts in Ethereum |
-| [Nethereum.IntegrationTesting](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.IntegrationTesting)  |   | Integration testing module |
-| [Nethereum.HDWallet](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nethereum.HDWallet.svg)](https://badge.fury.io/nu/nethereum.HDWallet) | Generates an HD tree of Ethereum compatible addresses from a randomly generated seed phrase (using BIP32 and BIP39) |
+| [Nconflux.ABI](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.ABI) | [![NuGet version](https://badge.fury.io/nu/nconflux.abi.svg)](https://badge.fury.io/nu/nconflux.abi)| Encoding and decoding of ABI Types, functions, events of Conflux contracts |
+| [Nconflux.EVM](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.EVM) | |Conflux Virtual Machine API|
+| [Nconflux.Hex](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Hex) | [![NuGet version](https://badge.fury.io/nu/nconflux.hex.svg)](https://badge.fury.io/nu/nconflux.hex)| HexTypes for encoding and decoding String, BigInteger and different Hex helper functions|
+| [Nconflux.RPC](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.RPC)   | [![NuGet version](https://badge.fury.io/nu/nconflux.rpc.svg)](https://badge.fury.io/nu/nconflux.rpc) | Core RPC Class Library to interact via RCP with an Conflux client |
+| [Nconflux.JsonRpc.Client](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.JsonRpc.Client)   | [![NuGet version](https://badge.fury.io/nu/nconflux.jsonrpc.client.svg)](https://badge.fury.io/nu/nconflux.jsonrpc.client) | Nconflux JsonRpc.Client core library to use in conjunction with either the JsonRpc.RpcClient, the JsonRpc.IpcClient or other custom Rpc provider |
+| [Nconflux.JsonRpc.RpcClient](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.JsonRpc.RpcClient)   | [![NuGet version](https://badge.fury.io/nu/nconflux.jsonrpc.rpcclient.svg)](https://badge.fury.io/nu/nconflux.jsonrpc.rpcclient) | JsonRpc Rpc Client using Http|
+| [Nconflux JsonRpc IpcClient](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.JsonRpc.IpcClient)| [![NuGet version](https://badge.fury.io/nu/nconflux.jsonRpc.ipcclient.svg)](https://badge.fury.io/nu/nconflux.jsonRpc.ipcclient) |JsonRpc IpcClient provider for Windows, Linux and Unix|
+| [Nconflux.RLP](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.RLP)  | [![NuGet version](https://badge.fury.io/nu/nconflux.rlp.svg)](https://badge.fury.io/nu/nconflux.rlp) | RLP encoding and decoding |
+| [Nconflux.KeyStore](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.KeyStore)  | [![NuGet version](https://badge.fury.io/nu/nconflux.keystore.svg)](https://badge.fury.io/nu/nconflux.keystore) | Keystore generation, encryption and decryption for Conflux key files using the Web3 Secret Storage definition, https://github.com/conflux/wiki/wiki/Web3-Secret-Storage-Definition |
+| [Nconflux.Signer](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Signer)  | [![NuGet version](https://badge.fury.io/nu/nconflux.signer.svg)](https://badge.fury.io/nu/nconflux.signer) | nconflux signer library to sign and verify messages, RLP and transactions using an Conflux account private key |
+| [Nconflux.Contracts](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Contracts)  | [![NuGet version](https://badge.fury.io/nu/nconflux.contracts.svg)](https://badge.fury.io/nu/nconflux.contracts) | Core library to interact via RPC with Smart contracts in Conflux |
+| [Nconflux.IntegrationTesting](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.IntegrationTesting)  |   | Integration testing module |
+| [Nconflux.HDWallet](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nconflux.HDWallet.svg)](https://badge.fury.io/nu/nconflux.HDWallet) | Generates an HD tree of Conflux compatible addresses from a randomly generated seed phrase (using BIP32 and BIP39) |
 
-Note: IPC is supported for Windows, Unix and Linux but is only available using Nethereum.Web3 not Nethereum.Portable
+Note: IPC is supported for Windows, Unix and Linux but is only available using Nconflux.Web3 not Nconflux.Portable
  
 ## Smart contract API Libraries
 
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------
-| [Nethereum.StandardTokenEIP20](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.StandardTokenEIP20)| [![NuGet version](https://badge.fury.io/nu/nethereum.standardtokeneip20.svg)](https://badge.fury.io/nu/nethereum.nethereum.standardtokeneip20)| ``` Nethereum.StandardTokenEIP20 ``` Ethereum Service to interact with ERC20 compliant contracts |
-| [Nethereum.Uport](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Uport)| [![NuGet version](https://badge.fury.io/nu/nethereum.uport.svg)](https://badge.fury.io/nu/nethereum.uport)| Uport registry library |
-| [Nethereum.ENS](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ENS)| [![NuGet version](https://badge.fury.io/nu/nethereum.ens.svg)](https://badge.fury.io/nu/nethereum.ens)| Ethereum Name service library (original ENS) WIP to upgrade to latest ENS |
+| [Nconflux.StandardTokenEIP20](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.StandardTokenEIP20)| [![NuGet version](https://badge.fury.io/nu/nconflux.standardtokeneip20.svg)](https://badge.fury.io/nu/nconflux.nconflux.standardtokeneip20)| ``` Nconflux.StandardTokenEIP20 ``` Conflux Service to interact with ERC20 compliant contracts |
+| [Nconflux.Uport](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Uport)| [![NuGet version](https://badge.fury.io/nu/nconflux.uport.svg)](https://badge.fury.io/nu/nconflux.uport)| Uport registry library |
+| [Nconflux.ENS](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.ENS)| [![NuGet version](https://badge.fury.io/nu/nconflux.ens.svg)](https://badge.fury.io/nu/nconflux.ens)| Conflux Name service library (original ENS) WIP to upgrade to latest ENS |
 
 ## Utilities
 
 |  Project Source |  Description |
 | ------------- |--------------------------|
-| [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) |  |
-| [Nethereum.Console](https://github.com/Nethereum/Nethereum.Console) | A collection of command line utilities to interact with Ethereum and account management | |
-[Testchains](https://github.com/Nethereum/TestChains) | Pre-configured devchains for fast response (PoA) | | 
-[DappHybrid](https://github.com/Nethereum/Nethereum.DappHybrid) | A cross-platform hybrid hosting mechanism for web based decentralised applications |
+| [Nconflux.Generator.Console](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Generator.Console) |  |
+| [Nconflux.Console](https://github.com/Nconflux/Nconflux.Console) | A collection of command line utilities to interact with Conflux and account management | |
+[Testchains](https://github.com/Nconflux/TestChains) | Pre-configured devchains for fast response (PoA) | | 
+[DappHybrid](https://github.com/Nconflux/Nconflux.DappHybrid) | A cross-platform hybrid hosting mechanism for web based decentralised applications |
 ## Training modules
 
 |  Project Source |  Description |
 | ------------- |--------------------------|
-|[Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) | Xamarin Workbook tutorials including executable code | 
-|[Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | Tutorials to run on VS Studio |
+|[Nconflux.Workbooks](https://github.com/Nconflux/Nconflux.Workbooks) | Xamarin Workbook tutorials including executable code | 
+|[Nconflux.Tutorials](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.Tutorials) | Tutorials to run on VS Studio |
 
 ## Code samples
 
 |  Source |  Description |
 | ------------- |------------|
-[Keystore generator](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.KeyStore.Console.Sample)| Keystore file generator|
-[Faucet](https://github.com/Nethereum/Nethereum.Faucet)| Web application template for an Ether faucet |
-[Nethereum Flappy](https://github.com/Nethereum/Nethereum.Flappy)| The source code files for the Unity3d game integrating with Ethereum |
-[Nethereum Game Sample](https://github.com/Nethereum/nethereum.game.sample)| Sample game demonstrating how to integrate Nethereum with [UrhoSharp's SamplyGame](https://github.com/xamarin/urho-samples/tree/master/SamplyGame) to build a cross-platform game interacting with Ethereum |
-[Nethereum UI wallet sample](https://github.com/Nethereum/nethereum.UI.wallet.sample)| Cross platform wallet example using Nethereum, Xamarin.Forms and MvvmCross, targeting: Android, iOS, Windows Mobile, Desktop (windows 10 uwp), IoT with the Raspberry PI and Xbox. |
-|[Nethereum Windows wallet sample](https://github.com/Nethereum/Nethereum.SimpleWindowsWallet) | Windows forms wallet sample providing the core functionality for Loading accounts from different mediums, Ether transfer, Standard token interaction. This is going to be the basis for the future cross-platform wallet / dapp |
-[Nethereum Windows wallet sample](https://github.com/Nethereum/Nethereum.SimpleWindowsWallet) | Windows forms wallet sample providing the core functionality for Loading accounts from different mediums, Ether transfer, Standard token interaction. This is going to be the basis for the future cross-platform wallet / dapp |
-[Blazor/Blockchain Explorer](https://github.com/Nethereum/NethereumBlazor) | Wasm blockchain explorer based on [Blazor](https://github.com/aspnet/Blazor) and [ReactiveUI](https://github.com/reactiveui/ReactiveUI)|
+[Keystore generator](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.KeyStore.Console.Sample)| Keystore file generator|
+[Faucet](https://github.com/Nconflux/Nconflux.Faucet)| Web application template for an Cfx faucet |
+[Nconflux Flappy](https://github.com/Nconflux/Nconflux.Flappy)| The source code files for the Unity3d game integrating with Conflux |
+[Nconflux Game Sample](https://github.com/Nconflux/nconflux.game.sample)| Sample game demonstrating how to integrate Nconflux with [UrhoSharp's SamplyGame](https://github.com/xamarin/urho-samples/tree/master/SamplyGame) to build a cross-platform game interacting with Conflux |
+[Nconflux UI wallet sample](https://github.com/Nconflux/nconflux.UI.wallet.sample)| Cross platform wallet example using Nconflux, Xamarin.Forms and MvvmCross, targeting: Android, iOS, Windows Mobile, Desktop (windows 10 uwp), IoT with the Raspberry PI and Xbox. |
+|[Nconflux Windows wallet sample](https://github.com/Nconflux/Nconflux.SimpleWindowsWallet) | Windows forms wallet sample providing the core functionality for Loading accounts from different mediums, Cfx transfer, Standard token interaction. This is going to be the basis for the future cross-platform wallet / dapp |
+[Nconflux Windows wallet sample](https://github.com/Nconflux/Nconflux.SimpleWindowsWallet) | Windows forms wallet sample providing the core functionality for Loading accounts from different mediums, Cfx transfer, Standard token interaction. This is going to be the basis for the future cross-platform wallet / dapp |
+[Blazor/Blockchain Explorer](https://github.com/Nconflux/NconfluxBlazor) | Wasm blockchain explorer based on [Blazor](https://github.com/aspnet/Blazor) and [ReactiveUI](https://github.com/reactiveui/ReactiveUI)|
 
 ### Video guides
 There a few video guides, which might be helpful to get started. 
 **NOTE: These videos are for version 1.0, so some areas have changed.**
 
-Please use the Nethereum playground for the latest samples.
+Please use the Nconflux playground for the latest samples.
 
 #### Introductions
 
 These are two videos that can take you through all the initial steps from creating a contract to deployment, one in the classic windows, visual studio environment and another in a cross platform mac and visual studio code. 
 
 ##### Windows, Visual Studio
-This video takes you through the steps of creating the a smart contract, compile it, start a private chain and deploy it using Nethereum.
+This video takes you through the steps of creating the a smart contract, compile it, start a private chain and deploy it using Nconflux.
 
-[![Smart contracts, private test chain and deployment to Ethereum with Nethereum](http://img.youtube.com/vi/4t5Z3eX59k4/0.jpg)](http://www.youtube.com/watch?v=4t5Z3eX59k4 "Smart contracts, private test chain and deployment to Ethereum with Nethereum")
+[![Smart contracts, private test chain and deployment to Conflux with Nconflux](http://img.youtube.com/vi/4t5Z3eX59k4/0.jpg)](http://www.youtube.com/watch?v=4t5Z3eX59k4 "Smart contracts, private test chain and deployment to Conflux with Nconflux")
 
 
 #### Introduction to Calls, Transactions, Events, Filters and Topics
@@ -176,7 +176,7 @@ This video provides an introduction on how to store and retrieve data from struc
 
 * Many thanks to Cass for the fantastic logo (https://github.com/cassiopaia) and everyone in Maker for providing very early feedback.
 * Many thanks to everyone who has submitted a request for extra features, help or bugs either here in github, gitter or other channels, you are continuously shaping this project. 
-  A big shout out specially to @slothbag, @matt.tan, @knocte, @TrekDev, @raymens, @rickzanux, @naddison36, @bobsummerwill, @brendan87, @dylanmckendry that were using Nethereum and providing great feedback from the beginning.
+  A big shout out specially to @slothbag, @matt.tan, @knocte, @TrekDev, @raymens, @rickzanux, @naddison36, @bobsummerwill, @brendan87, @dylanmckendry that were using Nconflux and providing great feedback from the beginning.
   @djsowa Marcin Sowa for his help on IPC in Linux.
-* Everyone in the Ethereum, Consensys and the blockchain community. 
-* Huge shout out to everyone developing all the different Ethereum implementations Geth, Parity, EthereumJ, EthCpp, ethereum-js (and every other utility around it), python (in the different shapes), ruby (digix guys), solidity, vyper, serpent, web3 implementations (web3js the first) and ethjs, web3j, etc, etc and last but not least the .Net Bitcoin implementation.
+* Everyone in the Conflux, Consensys and the blockchain community. 
+* Huge shout out to everyone developing all the different Conflux implementations Gcfx, Parity, ConfluxJ, CfxCpp, conflux-js (and every other utility around it), python (in the different shapes), ruby (digix guys), solidity, vyper, serpent, web3 implementations (web3js the first) and cfxjs, web3j, etc, etc and last but not least the .Net Bitcoin implementation.
