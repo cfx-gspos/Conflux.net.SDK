@@ -4,19 +4,20 @@
  
 # What is Nconflux?
 
-Nconflux is the .Net integration library for Conflux, simplifying the access and smart contract interaction with Conflux nodes both public or permissioned like Gcfx, [Parity](https://www.parity.io/) or [Quorum](https://www.jpmorgan.com/global/Quorum).
+Nconflux is the .Net integration library for Conflux, simplifying the access and smart contract interaction with Conflux nodes.
 
-Nconflux is developed targeting   netcore 3.1, .net 5, hence it is compatible with all the operating systems (Windows, Linux, MacOS, Android and OSX) and has been tested on cloud, mobile, desktop, Xbox, hololens and windows IoT.
+Nconflux is developed targeting   netcore 3.1 and .net 5, hence it is compatible with all the operating systems (Windows, Linux, MacOS, Android and OSX) and has been tested on cloud, mobile, desktop, Xbox, hololens and windows IoT.
  
 
 ## Issues, Requests and help
 
-Please join our wechat account 1725325128
+Forum: https://forum.conflux.fun/
+Wechat group: please join our support's wechat account 1725325128,  he will invite you into the wechat group.
 
 We should be able to answer there any simple queries, general comments or requests, everyone is welcome. In a similar feel free to raise any issue or pull request.
 
 ## Documentation
-The documentation and guides can be found at [Read the docs](https://nconflux.readthedocs.io/en/latest/). 
+The documentation and guides can be found at [Read the docs](https://xxxx/). 
 
 ## Features
 
@@ -26,49 +27,36 @@ The documentation and guides can be found at [Read the docs](https://nconflux.re
 * Transaction, RLP and message signing, verification and recovery of accounts.
 * Code generation of smart contracts services.
 
-## Quick installation
+## Quick Installation
 
-Nconflux provides two types of packages. Standalone packages targeting Netstandard 1.1, net451 and where possible net351 to support Unity3d. There is also a Nconflux.Portable library which combines all the packages into a single portable library. As netstandard evolves and is more widely supported, the portable library might be eventually deprecated.
-
+ 
 To install the latest version:
 
-#### Windows users
-
-To install the main packages you can either:
-
+ 
 ```
-PM > Install-Package Nconflux.Web3
-```
-or 
-```
-PM > Install-Package Nconflux.Portable
-```
-
-#### Mac/Linux users
-
-```
-dotnet add package Nconflux.Web3 
-``` 
-or 
-```
-dotnet add package Nconflux.Portable
+Install Visual Studio 2019
+Open Tools/Nuget Package Manager/Manager Nuget Package for Solution...
+In tab Browse, search Conflux.API
+Install it
 ```
  
-## Code samples
+## Code Samples
+### Create an NConflux Instance
 
-|  Source |  Description |
-| ------------- |------------|
-[Keystore generator](https://github.com/Nconflux/Nconflux/tree/master/src/Nconflux.KeyStore.Console.Sample)| Keystore file generator|
-[Faucet](https://github.com/Nconflux/Nconflux.Faucet)| Web application template for an Cfx faucet |
-[Nconflux Flappy](https://github.com/Nconflux/Nconflux.Flappy)| The source code files for the Unity3d game integrating with Conflux |
-[Nconflux Game Sample](https://github.com/Nconflux/nconflux.game.sample)| Sample game demonstrating how to integrate Nconflux with [UrhoSharp's SamplyGame](https://github.com/xamarin/urho-samples/tree/master/SamplyGame) to build a cross-platform game interacting with Conflux |
-[Nconflux UI wallet sample](https://github.com/Nconflux/nconflux.UI.wallet.sample)| Cross platform wallet example using Nconflux, Xamarin.Forms and MvvmCross, targeting: Android, iOS, Windows Mobile, Desktop (windows 10 uwp), IoT with the Raspberry PI and Xbox. |
-|[Nconflux Windows wallet sample](https://github.com/Nconflux/Nconflux.SimpleWindowsWallet) | Windows forms wallet sample providing the core functionality for Loading accounts from different mediums, Cfx transfer, Standard token interaction. This is going to be the basis for the future cross-platform wallet / dapp |
-[Nconflux Windows wallet sample](https://github.com/Nconflux/Nconflux.SimpleWindowsWallet) | Windows forms wallet sample providing the core functionality for Loading accounts from different mediums, Cfx transfer, Standard token interaction. This is going to be the basis for the future cross-platform wallet / dapp |
-[Blazor/Blockchain Explorer](https://github.com/Nconflux/NconfluxBlazor) | Wasm blockchain explorer based on [Blazor](https://github.com/aspnet/Blazor) and [ReactiveUI](https://github.com/reactiveui/ReactiveUI)|
-
- 
-
+NConflux conflux = new NConflux("http://test.confluxrpc.org");// no need gas 
+NConflux conflux = new NConflux("http://test.confluxrpc.org",privateKey);//need gas
+### Get Epoch Number
+var epochNumber = await conflux.GetEpochNumber();
+### Get Balance
+var balance = await conflux.GetBalance("0x1****");
+### Get Next Nonce
+var nextNonce =  await conflux.GetNextNonce("0x1****");
+### Transfer 
+await conflux.Transfer("0x1****", 1234);
+### Deploy Contract
+var contractInfo = await conflux.DeployContract("0x60**");
+### Call Contract
+await conflux.CallContract(CallType.Gas, ABI, contractInfo.ContractAddress, "set", new object[] { "user1" });
 ## Thanks  
 
-* Many thanks to  
+* Many thanks to [Conflux Foundation ](https://confluxnetwork.org/ "Conflux Foundation ")
